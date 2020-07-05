@@ -9,7 +9,7 @@ import {
 import { Observable, throwError } from 'rxjs';
 import { AuthService } from '../admin/shared/services/auth.service';
 import { Router } from '@angular/router';
-import { catchError, tap } from 'rxjs/operators';
+import { catchError } from 'rxjs/operators';
 
 @Injectable()
 export class AuthInterceptor implements HttpInterceptor {
